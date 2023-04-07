@@ -1,21 +1,24 @@
 .icon {
-    margin: .5rem;
-    padding: 1rem;
+    margin: 0rem;
+    padding: 0rem;
     height: 5rem;
-    width: 5rem;
-    border: 1rem, solid black;
+    width: 4rem;
     border-radius: 50%;
+    float: left;
+    position: relative;
+    bottom: 2.5rem;
+    right: 2rem;
 }
 ul {
     list-style-type: none;
     margin: 0;
     display: block;
-    padding: 2rem;
+    padding: 2.8rem;
     background-color: darkolivegreen;
   }
 
 li {
-    float: left;
+    float: right;
 }
 a{
     padding: 1rem;
@@ -27,6 +30,14 @@ a{
 a:hover {
     padding: 1rem;
     color: rgb(1, 1, 1); 
+}
+h1{
+    text-align: center;
+}
+.mainImage{
+    height: 30rem;
+    width: 25rem;
+    ;
 }
 
  
