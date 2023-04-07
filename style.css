@@ -39,5 +39,6 @@ h1{
     width: 25rem;
     ;
 }
-
- 
+.aboutImage{
+    border-radius: 2rem;
+}
