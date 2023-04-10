@@ -1,3 +1,3 @@
-let greeting = 'Hello world'
-console.log(greeting)
+let x = "Hello World!"
+console.log(x)
 
