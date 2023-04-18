@@ -43,9 +43,6 @@ h1{
     text-align: center;
     border-radius: 1.5rem;
 }
-.aboutImage{
-    border-radius: 2rem;
-}
 section{
     background-color: white;
     border: .5rem whitesmoke;
@@ -63,4 +60,37 @@ p{
 }
 h2{
     text-align: center;
+}
+.container{
+    display: flex;
+}
+.aboutsections{
+    width: 50rem;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: .2rem solid black;
+    border-radius: 2rem;
+}
+.mealsImage{
+    border-radius: 2rem;
+    width: 8rem;
+}
+.aboutImage{
+    border-radius: 2rem;
+    width: 15rem;
+}
+.basketballimage{
+    border-radius: 2rem;
+    width: 10rem;
+}
+.aboutul{
+  all: initial;
+  padding: 1rem;
+  list-style-type: square;
+}
+.aboutli{
+    float: left;
+    clear: left;
 }
