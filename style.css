@@ -54,20 +54,21 @@ body{
     background-color: lightgray
 }
 p{
-    font-size: 130%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 h2{
     text-align: center;
 }
 .container{
-    display: flex;
+    display: grid;
+    justify-content: center;
 }
 .aboutsections{
-    width: 50rem;
+    width: 35rem;
     background-color: white;
-    margin: 1rem;
+    margin: 2rem;
     padding: 1rem;
     text-align: center;
     border: .2rem solid black;
@@ -75,22 +76,33 @@ h2{
 }
 .mealsImage{
     border-radius: 2rem;
-    width: 8rem;
+    width: 14rem;
+    display: block;
+    margin-left: 10rem;
 }
 .aboutImage{
     border-radius: 2rem;
-    width: 15rem;
+    width: 25rem;
+    display: block;
+    margin-left: 5rem;
 }
 .basketballimage{
     border-radius: 2rem;
-    width: 10rem;
+    width: 20rem;
+    display: flex;
+    margin-left: 8rem;
 }
 .aboutul{
   all: initial;
-  padding: 1rem;
+  padding-left: 1rem;
   list-style-type: square;
+  float: right;
+  margin-top: 1rem;
 }
 .aboutli{
     float: left;
     clear: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: .2rem;
 }
