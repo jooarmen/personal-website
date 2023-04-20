@@ -33,6 +33,7 @@ a:hover {
 }
 h1{
     text-align: center;
+    padding-right: 6rem;
 }
 .Images{
     text-align: center;
@@ -141,3 +142,47 @@ input{
     background-color: gray;
 }
 
+/*CSS for mobile device*/
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    a{
+        padding: .4rem;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: .7rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        padding-right: 6rem;
+    }
+    #contactheader{
+        padding-right: 5.5rem;
+    }
+    .aboutsections{
+        width: 20rem;
+        background-color: white;
+        margin: 2rem;
+        padding: 1rem;
+        text-align: center;
+        border: .2rem solid black;
+        border-radius: 2rem;
+    }
+    .mealsImage{
+        border-radius: 2rem;
+        width: 14rem;
+        display: block;
+        margin-left: 3rem;
+    }
+    .aboutImage{
+        border-radius: 2rem;
+        width: 18rem;
+        display: block;
+        margin-left: 1rem;
+    }
+    .basketballimage{
+        border-radius: 2rem;
+        width: 16rem;
+        display: flex;
+        margin-left: 2rem;
+    }
+
+}
